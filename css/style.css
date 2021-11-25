@@ -115,6 +115,64 @@ header .block_resa .searchButton {
 	font-weight: bold;
 }
 
+section {
+	padding-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+section h2 {
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+section li {
+	counter-increment: list;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f6f6f6;
+	font-weight: 400;
+	box-shadow: 4px 4px 12px #aaa;
+}
+
+section li i {
+	color: #7e7e7e;
+	padding-left: 15px;
+	padding-right: 20px;
+	width: 23px;
+	height: auto;
+}
+
+section li i:hover {
+	color: #9356dc;
+}
+
+section li::before {
+	content: counter(list);
+	border-radius: 50%;
+	margin-right: 0.5rem; 
+	padding: 0.2rem 0.5rem;
+	background: #9356dc;
+	border-color: #9356dc;
+	color: #fff;
+	margin-left: -13px;
+}
+
+section li:hover {
+	background-color: #f5edff;
+}
+
+section li:hover i {
+	color: #9356dc;
+}
+
 main {
 	background-color: #f6f6f6;
 }
