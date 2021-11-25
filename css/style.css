@@ -42,27 +42,8 @@ table {
 	border-spacing: 0;
 }
 
-h1 {
-	font-family: Shrikhand;
-	font-size: 40px;
-	margin-bottom: 20px;
-}
-
-header .searchBox {
-	position: relative;
-	width: 100%;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	background-color: gainsboro;
-	text-align: center;
-}
-
-.input_container i {
-	position:absolute; 
-	left: 315px; 
-	top: 85px; 
-	padding: 9px 8px; 
-
+body { 
+	font-family: Roboto;
 }
 
 h2 {
@@ -74,27 +55,78 @@ p {
 	font-family: Roboto;
 }
 
-header {
-	text-align: center;
-	margin-top: 25px;
-
-	background-color: burlywood;
+.block_titre {
+	font-family: Shrikhand;
+	font-size: 40px;
+	padding-bottom: 15px;
+	box-shadow: 0px 20px 0px #353535;
 }
 
-body {
-
+header .searchBox {
+	position: relative;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 15px;
 	text-align: center;
-
+	border: none;
+	background-color: #eaeaea;
+	color: #353535;
+	outline: 0;
+	-webkit-box-shadow: inset 0 12px 13px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 12px 16px -20px rgba(0,0,0,0.8);
+    box-shadow: inset 0 12px 16px -20px rgba(0,0,0,0.8);
 }
 
-section {
-	background-color: burlywood;
+.input_container i {
+	position:absolute; 
+	left: 420px; 
+	top: 85px; 
+	padding: 9px 8px; 
+	color: #353535;
+}
 
+header .block_resa {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #f6f6f6;
+}
+
+header .block_resa h2 {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+header .block_resa p {
+	font-weight: 200;
+	padding-bottom: 15px;
+}
+
+header .block_resa .searchButton {
+	background-color: #e671da;
+	background: linear-gradient(to bottom right, #ef74da, #9d59dc);
+	border: none;
+	border-radius: 25px;
+	padding: 15px;
+	padding-right: 18px;
+	padding-left: 18px;
+	font-size: 15px;
+	color: white;
+	box-shadow: 4px 4px 12px #aaa;
+	font-weight: bold;
 }
 
 main {
-	background-color: burlywood;
+	background-color: #f6f6f6;
+}
 
+
+header {
+	text-align: center;
+	margin-top: 25px;
+}
+
+body {
+	text-align: center;
 }
 
 main h2 {
