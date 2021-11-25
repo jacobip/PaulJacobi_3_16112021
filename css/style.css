@@ -116,7 +116,8 @@ header .block_resa .searchButton {
 }
 
 section {
-	padding-top: 20px;
+	padding-top: 35px;
+	padding-bottom: 40px;
 }
 
 ul {
@@ -125,8 +126,10 @@ ul {
 }
 
 section h2 {
+	text-align: left;
 	font-size: 24px;
 	padding-bottom: 20px;
+	margin-left: 25px;
 }
 
 section li {
@@ -173,11 +176,6 @@ section li:hover i {
 	color: #9356dc;
 }
 
-main {
-	background-color: #f6f6f6;
-}
-
-
 header {
 	text-align: center;
 	margin-top: 25px;
@@ -187,12 +185,71 @@ body {
 	text-align: center;
 }
 
+main {
+	background-color: #f6f6f6;
+	padding-top: 35px;
+}
+
 main h2 {
-	color: blue;
 	text-align: left;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-left: 25px;
+}
+
+main figure {
+	border-radius: 15px;
+	background-color: #fff;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	width: 370px;
+	height: auto;
+	box-shadow: 4px 4px 12px #aaa;
 }
 
 img {
-	width: 250px;
+	width: 370px;
 	height: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+main a {
+	text-decoration: none;
+}
+
+main h3 {
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+main p {
+	color: black;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-top: -15px;
+}
+
+main i {
+	font-size: 24px;
+	text-align: right;
+	margin-right: -280px;
+	color: grey;
+}
+
+main .image {
+	position: relative;
+}
+
+main .image .sticker {
+	background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    
 }
