@@ -148,7 +148,7 @@ header .block_resa .searchButton {
 }
 
 .entrees {
-	margin-top: -25px;
+	padding-top: 25px;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
 	background-color: #fff;
