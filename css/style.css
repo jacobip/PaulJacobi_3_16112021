@@ -43,8 +43,16 @@ table {
 }
 
 body { 
+	background-color: blanchedalmond;
 	font-family: Roboto;
+	margin-left: 150px;
+	margin-right: 150px;
 }
+
+body header {
+	margin-top: 0px;
+}
+
 
 h2 {
 	font-family: Roboto;
@@ -55,11 +63,29 @@ p {
 	font-family: Roboto;
 }
 
-.block_titre {
+header .block_titre {
 	font-family: Shrikhand;
 	font-size: 40px;
 	padding-bottom: 15px;
-	box-shadow: 0px 20px 0px #353535;
+	background-color: #fff;
+	padding-top: 15px;
+}
+
+.block_titre h1 {
+	position: relative;
+}
+
+.block_titre i {
+	position: absolute;
+	left: 260px;
+	bottom: 395px;
+	color: #353535;
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 header .searchBox {
@@ -113,14 +139,28 @@ header .block_resa .searchButton {
 	color: white;
 	box-shadow: 4px 4px 12px #aaa;
 	font-weight: bold;
+	cursor: pointer;
+}
+
+.image_pres img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.entrees {
+	margin-top: -25px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #fff;
 }
 
 section {
+	background-color: #fff;
 	padding-top: 35px;
 	padding-bottom: 40px;
 }
 
-ul {
+section ul {
 	list-style-type: none;
 	text-align: left;
 }
@@ -143,6 +183,7 @@ section li {
 	background-color: #f6f6f6;
 	font-weight: 400;
 	box-shadow: 4px 4px 12px #aaa;
+	cursor: pointer;
 }
 
 section li i {
@@ -181,13 +222,10 @@ header {
 	margin-top: 25px;
 }
 
-body {
-	text-align: center;
-}
-
 main {
 	background-color: #f6f6f6;
 	padding-top: 35px;
+	padding-bottom: 50px;
 }
 
 main h2 {
@@ -208,7 +246,11 @@ main figure {
 	box-shadow: 4px 4px 12px #aaa;
 }
 
-img {
+main figure:hover {
+	background-color: #f5edff;
+}
+
+main img {
 	width: 370px;
 	height: auto;
 	border-top-left-radius: 15px;
@@ -248,8 +290,52 @@ main .image {
 }
 
 main .image .sticker {
-	background: rgba(0, 0, 0, 0.8);
     z-index: 1;
     position: absolute;
-    
+	right: 13px;
+	top: 30px;
+}
+
+main .image .sticker p {
+	background: #99e2d0;
+	color: #028867;
+	font-weight: 500;
+	padding-right: 25px;
+	padding: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 2px;
+}
+
+footer {
+	padding-top: 25px;
+	padding-bottom: 35px;
+	background-color: #353535;
+	color: white;
+}
+
+footer h1 {
+	font-family: Shrikhand;
+	text-align: left;
+	margin-left: 25px;
+	padding-bottom: 25px;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: left;
+	margin-left: 25px;	
+}
+
+footer li {
+	margin-bottom: 15px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer i {
+	padding-right: 15px;
 }
