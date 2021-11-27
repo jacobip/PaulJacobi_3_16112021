@@ -144,15 +144,30 @@ header .block_resa .searchButton {
 
 .image_pres img {
 	max-width: 100%;
-	max-height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: -275px;
 }
 
 .entrees {
-	padding-top: 25px;
+	margin-top: 275px;
+	padding-top: 35px;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
 	background-color: #fff;
+	position: relative;
 }
+
+.entrees h2 {
+	font-family: Shrikhand;
+	font-size: 32px;
+	margin-left: 25px;
+}
+
+.entrees p {
+	margin-top: 27px;
+	margin-left: 25px;
+} 
 
 section {
 	background-color: #fff;
