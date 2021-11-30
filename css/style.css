@@ -125,7 +125,7 @@ header .block_resa p {
 	padding-bottom: 15px;
 }
 
-header .block_resa .searchButton {
+.searchButton {
 	background-color: #e671da;
 	background: linear-gradient(to bottom right, #ef74da, #9d59dc);
 	border: none;
@@ -331,7 +331,7 @@ main .image .sticker p {
 
 .block_titre_menu i {
 	font-size: 24px;
-	color: #fff;
+	color: #f6f6f6;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }
@@ -350,13 +350,126 @@ main .image .sticker p {
 
 .trait {
 	border-bottom: solid #99e2d0 3px;
-	margin-right: 500px;
-	margin-left: 25px;
 	padding-top: 5px;
+	margin-left: 25px;
+	width: 38px;
+}
+
+.entrees {
+	background-color: #f6f6f6;
+	padding-bottom: 50px;
+}
+
+.plats {
+	background-color: #f6f6f6;
+	margin-top: -27px;
+	padding-bottom: 50px;
+}
+
+.desserts {
+	background-color: #f6f6f6;
+	margin-top: -27px;
+	padding-bottom: 50px;
+}
+
+.container_cards {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 18px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .entrees figure {
-	
+	width: 100%;
+	padding-right: 20px;
+}
+
+.plats figure {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.desserts figure {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	padding-left: 15px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 12px #aaa;
+}
+
+.card:hover .checkbox {
+	display: block;
+}
+
+.checkbox {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	background-color: #99e2d0;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	display: none;
+	animation: scaleIn 0.3s linear 0s normal forwards;
+}
+
+@keyframes scaleIn {
+	0% {
+	  transform: scaleX(0);
+	  transform-origin: 100% 100%;
+	}
+  
+	100% {
+	  transform: scaleX(1);
+	  transform-origin: 100% 100%;
+	}
+}
+
+.checkbox i {
+	color: #fff;
+	font-size: 23px;
+	animation: roTate 0.3s linear 0s 1 normal forwards;
+}
+
+@keyframes roTate {
+	0% {
+	  transform: rotate(0);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+figure .nom {
+	font-weight: bold;
+	margin-bottom: 9px;
+	padding-top: 14px;
+}
+
+figure .description {
+	font-weight: 300;
+	padding-bottom: 14px;
+}
+
+figure .prix {
+	font-weight: bold;
+}
+
+figure .figdown {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 footer {
