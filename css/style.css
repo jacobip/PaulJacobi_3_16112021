@@ -140,6 +140,10 @@ header .block_resa p {
 	cursor: pointer;
 }
 
+.searchButton:hover {
+	filter: brightness(115%);
+	box-shadow: 5px 5px 12px rgb(128, 128, 128);
+}
 
 section {
 	background-color: #fff;
@@ -312,7 +316,6 @@ main .image .sticker p {
 	border-top-right-radius: 40px;
 	background-color: #fff;
 	position: relative;
-	margin-top: -120px;
 }
 
 .entrees h2 {
@@ -327,6 +330,7 @@ main .image .sticker p {
 	align-items: center;
 	margin-left: 25px;
 	margin-right: 40px;
+	margin-bottom: 50px;
 }
 
 .block_titre_menu i {
@@ -357,19 +361,20 @@ main .image .sticker p {
 
 .entrees {
 	background-color: #f6f6f6;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
+	margin-top: -127px;
 }
 
 .plats {
 	background-color: #f6f6f6;
-	margin-top: -27px;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
+	margin-top: 60px;
 }
 
 .desserts {
 	background-color: #f6f6f6;
-	margin-top: -27px;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
+	margin-top: 60px;
 }
 
 .container_cards {
@@ -405,6 +410,87 @@ main .image .sticker p {
 	padding-left: 15px;
 	border-radius: 15px;
 	box-shadow: 4px 4px 12px #aaa;
+}
+
+@keyframes LoadCard {
+	0% {
+	  opacity: 0;
+	  transform: translateY(200px);
+	}
+  
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+}
+
+.load_1 {
+	animation: LoadCard 0.5s ease 0s 1 normal forwards;
+	animation-delay: 200ms;
+}
+
+.load_2 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 400ms;
+}
+
+.load_3 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 600ms;
+}
+
+.load_4 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 800ms;
+}
+
+.load_5 {
+	animation: LoadCard 0.5s ease 0s 1 normal forwards;
+	animation-delay: 1000ms;
+}
+
+.load_6 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 1200ms;
+}
+
+.load_7 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 1400ms;
+}
+
+.load_8 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 1600ms;
+}
+
+.load_9 {
+	animation: LoadCard 0.5s ease 0s 1 normal forwards;
+	animation-delay: 1800ms;
+}
+
+.load_10 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 2000ms;
+}
+
+.load_11 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 2200ms;
+}
+
+.load_12 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 2400ms;
+}
+
+.load_13 {
+    animation: LoadCard 1s ease 0s 1 normal forwards;
+	animation-delay: 2400ms;
+}
+
+.card:hover {
+	cursor: pointer;
 }
 
 .card:hover .checkbox {
@@ -472,11 +558,19 @@ figure .figdown {
 	justify-content: space-between;
 }
 
+.order {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+
+}
+
 footer {
 	padding-top: 25px;
-	padding-bottom: 35px;
+	padding-bottom: 40px;
 	background-color: #353535;
 	color: white;
+	margin-bottom: -50px;
 }
 
 footer h1 {
