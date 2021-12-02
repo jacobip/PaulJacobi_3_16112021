@@ -15,6 +15,7 @@
     bottom: 0;
     animation: spin 1.5s linear infinite;
     cursor: pointer;
+	z-index: -1;
 }
 
 @keyframes spin {
@@ -26,3 +27,32 @@
     }
 }
 
+header {
+	animation: demoSpinner 3s;
+	animation-timing-function: steps(1, jump-end);
+}
+
+section {
+	animation: demoSpinner 3s;
+	animation-timing-function: steps(1, jump-end);
+}
+
+main {
+	animation: demoSpinner 3s;
+	animation-timing-function: steps(1, jump-end);
+}
+
+footer {
+	animation: demoSpinner 3s;
+	animation-timing-function: steps(1, jump-end);
+}
+
+@keyframes demoSpinner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

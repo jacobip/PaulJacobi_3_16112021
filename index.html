@@ -9,6 +9,8 @@
     <title>ohmyfood</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/demo.css" />
+
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -19,36 +21,30 @@
 </head>
 
 <body>
+    <div class="chargement"></div>
     <header>
         <div class="block_titre">
             <h1>ohmyfood</h1>
         </div>
         <div class="input_container">
             <input class="searchBox" type="search" name="search" placeholder="&#xf3c5; &#xF002; Ville, région, code postal...">
-            <i class="fas fa-map-marker-alt"></i>
         </div>
         <div class="block_resa">
             <h2>Réservez le menu qui vous convient</h2>
             <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-            <input type="submit" value="Explorer nos restaurants" class="searchButton">
+            <a href="#haut">
+                <input type="submit" value="Explorer nos restaurants" class="searchButton">
+            </a>
         </div>
     </header>
-    
     <section>
         <h2>Fonctionnement</h2>
         <ul>
-            <a href="#haut">
-                <li> <i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
-            </a>
-            <a href="#haut">
-                <li><i class="fas fa-list-ul"></i>Composez votre menu</li>
-            </a>
-            <a href="#haut">
-                <li><i class="fas fa-store"></i>Dégustez au restaurant</li>
-            </a>
+            <li> <i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
+            <li><i class="fas fa-list-ul"></i>Composez votre menu</li>
+            <li><i class="fas fa-store"></i>Dégustez au restaurant</li>
         </ul>
     </section>
-
     <main>
         <div id="haut">
             <h2>Restaurants</h2>
