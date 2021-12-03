@@ -85,6 +85,12 @@ a {
 	color: black;
 }
 
+.map {
+	position: absolute;
+	top: 84px;
+	left: 370px;
+}
+
 header .block_resa {
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -338,20 +344,18 @@ main .image .sticker p {
 
 .entrees {
 	background-color: #f6f6f6;
-	margin-bottom: 50px;
 	margin-top: -127px;
 }
 
 .plats {
 	background-color: #f6f6f6;
-	margin-bottom: 50px;
-	margin-top: 60px;
+	padding-top: 50px;
 }
 
 .desserts {
 	background-color: #f6f6f6;
-	margin-bottom: 50px;
-	margin-top: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .container_cards {
@@ -376,6 +380,10 @@ main .image .sticker p {
 .desserts figure {
 	width: 100%;
 	padding-right: 20px;
+}
+
+.container_cards {
+	background-color: #f6f6f6;
 }
 
 .card {
@@ -556,8 +564,8 @@ figure .figdown {
 .order {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 60px;
-
+	background-color: #f6f6f6;
+	padding-bottom: 45px;
 }
 
 footer {
