@@ -394,17 +394,19 @@ figure .nom {
 	font-weight: bold;
 	margin-bottom: 9px;
 	padding-top: 14px;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
 	overflow: hidden;
-     white-space: nowrap;
-     text-overflow: ellipsis;
 }
 
 figure .description {
 	font-weight: 300;
-	padding-bottom: 14px;
+	margin-bottom: 14px;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
 	overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .checkbox {
