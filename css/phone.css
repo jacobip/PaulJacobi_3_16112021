@@ -2,5 +2,10 @@
     body {
         margin-left: 0;
         margin-right: 0;
+        background-color: #353535;
+    }
+
+    .entrees {
+        margin-top: -50px;
     }
 }
