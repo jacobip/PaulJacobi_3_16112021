@@ -45,8 +45,8 @@ table {
 body { 
 	background-color: blanchedalmond;
 	font-family: Roboto;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 body header {
@@ -69,10 +69,17 @@ header .block_titre {
 	padding-bottom: 15px;
 	background-color: #fff;
 	padding-top: 15px;
+<<<<<<< Updated upstream
 }
 
 .block_titre h1 {
 	position: relative;
+=======
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+>>>>>>> Stashed changes
 }
 
 .block_titre i {
@@ -228,6 +235,18 @@ header {
 	margin-top: 25px;
 }
 
+.desktop {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main figure {
+	width: 440px;
+	height: auto;
+}
+
 main {
 	background-color: #f6f6f6;
 	padding-top: 35px;
@@ -286,9 +305,27 @@ main p {
 
 main i {
 	font-size: 24px;
+<<<<<<< Updated upstream
 	text-align: right;
 	margin-right: -280px;
 	color: grey;
+=======
+	color: #fff;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+main i:hover {
+	font-size: 24px;
+	color: #9c47fc;
+	display: block;
+	background: -webkit-linear-gradient(#9356dc, #FF79DA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: #fff;
+	transition: 0.3s;
+	-webkit-text-stroke-width: none;
+>>>>>>> Stashed changes
 }
 
 main .image {
@@ -313,6 +350,298 @@ main .image .sticker p {
 	border-radius: 2px;
 }
 
+<<<<<<< Updated upstream
+=======
+.image_pres img {
+	width: 1000px;
+	height: auto;
+	max-width: 100%;
+	position: relative;
+	z-index: 0;
+}
+
+.entrees {
+	padding-top: 35px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #fff;
+	position: relative;
+}
+
+.entrees h2 {
+	font-family: Shrikhand;
+	font-size: 32px;
+}
+
+.block_titre_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 25px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+}
+
+.block_titre_menu i {
+	font-size: 24px;
+	color: #f6f6f6;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.block_titre_menu i:hover {
+	font-size: 24px;
+	color: #9c47fc;
+	display: block;
+	background: -webkit-linear-gradient(#9356dc, #FF79DA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: #fff;
+	transition: 0.3s;
+	-webkit-text-stroke-width: none;
+}
+
+.subtitle p {
+	margin-top: 27px;
+	margin-left: 25px;
+	font-weight: 300;
+}
+
+.trait {
+	border-bottom: solid #99e2d0 3px;
+	padding-top: 5px;
+	margin-left: 25px;
+	width: 38px;
+}
+
+.entrees {
+	background-color: #f6f6f6;
+	margin-top: -127px;
+}
+
+.plats {
+	background-color: #f6f6f6;
+	padding-top: 50px;
+}
+
+.desserts {
+	background-color: #f6f6f6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container_cards {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 18px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.entrees figure {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.plats figure {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.desserts figure {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.container_cards {
+	background-color: #f6f6f6;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	padding-left: 15px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 12px #aaa;
+	min-width: 0;
+}
+
+figure .nom {
+	font-weight: bold;
+	margin-bottom: 9px;
+	padding-top: 14px;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+figure .description {
+	font-weight: 300;
+	margin-bottom: 14px;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+.checkbox {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	background-color: #99e2d0;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	display: none;
+	animation: scaleIn 0.3s linear 0s normal forwards;
+}
+
+figure .prix {
+	font-weight: bold;
+}
+
+figure .figdown {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@keyframes LoadCard {
+	0% {
+		transform: translateY(150px);
+	}
+  
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes aPPear {
+	0% {
+		opacity: 0;
+	}
+  
+	100% {
+		opacity: 1;
+	}
+}
+
+.load_1 {
+	animation: LoadCard 1.3s ease 0s 1 normal forwards,
+	aPPear 2.5s ease-in 0s 1 normal forwards;
+}
+
+.load_2 {
+    animation: LoadCard 1.3s ease 0.2s 1 normal forwards,
+	aPPear 2.7s ease-in 0s 1 normal forwards;
+}
+
+.load_3 {
+    animation: LoadCard 1.3s ease 0.4s 1 normal forwards,
+	aPPear 2.9s ease-in 0s 1 normal forwards;
+}
+
+.load_4 {
+	animation: LoadCard 1.3s ease 0.6s 1 normal forwards,
+	aPPear 3.1s ease-in 0s 1 normal forwards;
+}
+
+.load_5 {
+	animation: LoadCard 1.3s ease 0.8s 1 normal forwards,
+	aPPear 3.3s ease-in 0s 1 normal forwards;
+}
+
+.load_6 {
+	animation: LoadCard 1.3s ease 1s 1 normal forwards,
+	aPPear 3.5s ease-in 0s 1 normal forwards;
+}
+
+.load_7 {
+	animation: LoadCard 1.3s ease 1.2s 1 normal forwards,
+	aPPear 3.7s ease-in 0s 1 normal forwards;
+}
+
+.load_8 {
+	animation: LoadCard 1.3s ease 1.4s 1 normal forwards,
+	aPPear 3.9s ease-in 0s 1 normal forwards;
+}
+
+.load_9 {
+	animation: LoadCard 1.3s ease 1.6s 1 normal forwards,
+	aPPear 5.0s ease-in 0s 1 normal forwards;
+}
+
+.load_10 {
+	animation: LoadCard 1.3s ease 1.8s 1 normal forwards,
+	aPPear 5.2s ease-in 0s 1 normal forwards;
+}
+
+.load_11 {
+	animation: LoadCard 1.3s ease 2s 1 normal forwards,
+	aPPear 5.4s ease-in 0s 1 normal forwards;
+}
+
+.load_12 {
+	animation: LoadCard 1.3s ease 2.2s 1 normal forwards,
+	aPPear 5.6s ease-in 0s 1 normal forwards;
+}
+
+.load_13 {
+	animation: LoadCard 1.3s ease 2.4s 1 normal forwards,
+	aPPear 5.8s ease-in 0s 1 normal forwards;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.card:hover .checkbox {
+	display: block;
+}
+
+
+@keyframes scaleIn {
+	0% {
+	  transform: scaleX(0);
+	  transform-origin: 100% 100%;
+	}
+  
+	100% {
+	  transform: scaleX(1);
+	  transform-origin: 100% 100%;
+	}
+}
+
+.checkbox i {
+	color: #fff;
+	font-size: 23px;
+	animation: roTate 0.3s linear 0s 1 normal forwards;
+}
+
+@keyframes roTate {
+	0% {
+	  transform: rotate(0);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+.order {
+	display: flex;
+	justify-content: center;
+	background-color: #f6f6f6;
+	padding-bottom: 45px;
+}
+
+>>>>>>> Stashed changes
 footer {
 	padding-top: 25px;
 	padding-bottom: 35px;

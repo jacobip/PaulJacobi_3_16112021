@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main figure {
+        width: auto;
+        height: auto;
+    }
+}

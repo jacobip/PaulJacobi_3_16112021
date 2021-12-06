@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: #353535;
+    }
+
+    main figure {
+        width: auto;
+        height: auto;
+    }
+}
