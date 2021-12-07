@@ -16,6 +16,7 @@
     animation: spin 1.5s linear infinite;
     cursor: pointer;
 	z-index: -1;
+    position: fixed;
 }
 
 @keyframes spin {
