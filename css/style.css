@@ -141,6 +141,8 @@ header .block_resa h2 {
 header .block_resa p {
   font-weight: 200;
   padding-bottom: 15px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .searchButton {
