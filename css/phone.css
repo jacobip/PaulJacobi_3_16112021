@@ -8,4 +8,8 @@
     .entrees {
         margin-top: -50px;
     }
+
+    .desktop {
+        display: block;
+    }
 }

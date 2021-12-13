@@ -39,10 +39,10 @@ table {
 }
 
 body {
-  background-color: #99E2D0;
+  background-color: #323232;
   font-family: Roboto;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 body header {
@@ -243,6 +243,15 @@ main {
   padding-bottom: 50px;
 }
 
+.desktop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
 main h2 {
   text-align: left;
   font-size: 24px;
@@ -335,6 +344,10 @@ main .image .sticker p {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 2px;
+}
+
+.image_pres {
+  text-align: center;
 }
 
 .image_pres img {
